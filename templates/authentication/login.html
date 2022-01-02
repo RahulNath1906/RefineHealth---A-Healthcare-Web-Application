@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>login</title>
+    <link rel="stylesheet" href="/static/css/adminstyle.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    {% for message in messages %}
+
+    <div class="alert alert-success" style="background-color: red">
+      <a class="close" href="#" data-dismiss="alert">×</a>
+      {{ message }}
+    </div>
+
+    {% endfor %}
+    <div class="wrapper">
+      <div class="title-text">
+        <div class="title login">Login</div>
+      </div>
+      <div class="form-container">
+        <div class="form-inner">
+          <form action="/signin" method="POST" class="login">
+            {% csrf_token %}
+            <div class="field">
+              <input
+                type="text"
+                name="username"
+                placeholder="Enter Email Address"
+                required
+              />
+            </div>
+            <div class="field">
+              <input
+                type="password"
+                name="logpass"
+                placeholder="Enter Password"
+                required
+              />
+            </div>
+
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <input type="submit" value="Login" />
+            </div>
+            <div class="signup-link">
+              New to refinehealth ? <a href="/signup"><b>Join now</b></a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="/static/js/login.js"></script>
+  </body>
+</html>

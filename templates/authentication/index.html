@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>refinehealth</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="/static/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="/static/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="/static/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- <link href="/static/vendor/remixicon/remixicon.css" rel="stylesheet"> -->
+    <link href="/static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      href="/static/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Template Main CSS File -->
+    <link href="/static/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Header Start -->
+    <header id="header" class="header fixed-top">
+      <div
+        id="home"
+        class="
+          container-fluid container-xl
+          d-flex
+          align-items-center
+          justify-content-between
+        "
+      >
+        <a href=" " class="logo d-flex align-items-center">
+          <span>refine<span class="health">health</span></span>
+        </a>
+        <!-- Navbar Start -->
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#values">Services</a></li>
+            <li><a href="#recent-blog-posts">Articles</a></li>
+
+            <li>
+              <a class="getstarted scrollto" href="/signin">Get Started</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- Navbar End -->
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- {% for message in messages %}
+
+    <div class="alert alert-success" style="background-color: red">
+      <a class="close" href="#" data-dismiss="alert">×</a>
+      {{ message }}
+    </div>
+
+    {% endfor %} -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <h1 data-aos="fade-up">Your health is our concern</h1>
+            <h2 data-aos="fade-up" data-aos-delay="400">
+              We will help you feel better and enjoy every single day of your
+              life
+            </h2>
+            <div data-aos="fade-up" data-aos-delay="600">
+              <div class="text-center text-lg-start">
+                <a
+                  href="#about"
+                  class="
+                    btn-get-started
+                    scrollto
+                    d-inline-flex
+                    align-items-center
+                    justify-content-center
+                    align-self-center
+                  "
+                >
+                  <span>Get Started</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 hero-img"
+            data-aos="zoom-out"
+            data-aos-delay="200"
+          >
+            <img src="/static/img/hero-img.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+            <div
+              class="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>Who We Are</h3>
+                <h2>
+                  Expedita voluptas omnis cupiditate totam eveniet nobis sint
+                  iste. Dolores est repellat corrupti reprehenderit.
+                </h2>
+                <p>
+                  Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt
+                  et. Inventore et et dolor consequatur itaque ut voluptate sed
+                  et. Magnam nam ipsum tenetur suscipit voluptatum nam et est
+                  corrupti.
+                </p>
+                <div class="text-center text-lg-start">
+                  <a
+                    href="#"
+                    class="
+                      btn-read-more
+                      d-inline-flex
+                      align-items-center
+                      justify-content-center
+                      align-self-center
+                    "
+                  >
+                    <span>Read More</span>
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-6 d-flex align-items-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
+              <img src="static/img/about.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
+
+      <!-- ======= Services Section ======= -->
+      <section id="values" class="values">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>Our Services</h2>
+            <p>Here is what we offer</p>
+          </header>
+
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="box" data-aos="fade-up" data-aos-delay="200">
+                <img
+                  src="/static/img/ambulance-illustration.svg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <a href="/ambulance"><h3>Ambulance</h3></a>
+                <p>Call ambulance wherever you are within few clicks.</p>
+                <a href="/ambulance" class="read-more"
+                  ><span>Read More</span> <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mt-4 mt-lg-0" id="appoint">
+              <div class="box" data-aos="fade-up" data-aos-delay="400">
+                <img
+                  src="/static/img/app-illustration.svg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <h3>Appointment</h3>
+                <p>Consultation with your best doctor anywhere anytime.</p>
+                <a href="#" class="read-more"
+                  ><span>Read More</span> <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4 mt-4 mt-lg-0">
+              <div class="box" data-aos="fade-up" data-aos-delay="600">
+                <img
+                  src="/static/img/meds-illustration.svg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <h3>Medicines</h3>
+                <p>
+                  Order your medicines and get it delieverd at your doorstep.
+                </p>
+                <a href="#" class="read-more"
+                  ><span>Read More</span> <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Values Section -->
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <!--<h2>Services</h2>-->
+            <p>Other Features and Services</p>
+          </header>
+
+          <div class="row gy-4">
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="service-box blue">
+                <i class="bx bx-capsule icon"></i>
+                <h3>Medicines</h3>
+                <p>
+                  Upload your prescription, order from your nearby local store
+                  and get it delivered at your doorstep.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="service-box orange">
+                <i class="bx bx-conversation icon"></i>
+                <h3>Consultation</h3>
+                <p>
+                  Book your appointments from the comfort of your home and get
+                  consulted by the best doctors anytime anywhere.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="service-box green">
+                <i class="bx bx-file icon"></i>
+                <h3>Health Report</h3>
+                <p>Uploade / Save, all your health reports are at one place.</p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="service-box red">
+                <i class="bx bxs-ambulance icon"></i>
+                <h3>Ambulance</h3>
+                <p>
+                  Call ambulance within few clicks, get contact number of all
+                  nearby ambulance service providers.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="service-box purple">
+                <i class="bx bxs-time-five icon"></i>
+                <h3>Pill Reminder</h3>
+                <p>
+                  Set your reminders for taking your pills on time. We will take
+                  care of it, you'll never forget to take your pill without any
+                  fail.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-4 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="700"
+            >
+              <div class="service-box pink">
+                <i class="bx bxs-vial icon"></i>
+                <h3>Diagnosis</h3>
+                <p>
+                  Get your tests done, book your slot without going anywhere
+                  else.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Services Section -->
+
+      <!-- ======= F.A.Q Section ======= -->
+      <section id="faq" class="faq">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>F.A.Q</h2>
+            <p>Frequently Asked Questions</p>
+          </header>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <!-- F.A.Q List 1-->
+              <div class="accordion accordion-flush" id="faqlist1">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                      Why should we use refinehealth?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq-content-1"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div class="accordion-body">
+                      We are here to make your life easier.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                      How can we call ambulance?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq-content-2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div class="accordion-body">
+                      Go to the emergency section, select your location, get all
+                      the details of ambulance providers from the location
+                      chosen.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >
+                      How to order medicines and book appointment?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq-content-3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div class="accordion-body">
+                      Currenly, out team is working on ths feature. It will be
+                      added soon.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <!-- F.A.Q List 2-->
+              <div class="accordion accordion-flush" id="faqlist2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq2-content-1"
+                    >
+                      Can we cancel our appointment if booked by mistake?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq2-content-1"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div class="accordion-body">
+                      Yes, you can cancel your appointment but it should be done
+                      within 12 hours prior to booking your slot. Currently, we
+                      are working on this feature, it will be added very soon.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq2-content-2"
+                    >
+                      I'm a local store owner, can I join refinehealth?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq2-content-2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div class="accordion-body">
+                      Yes, you can all you have to do is to register your name
+                      shop name in our admin portal. We'll contact you and then
+                      you can work with us.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq2-content-3"
+                    >
+                      Whom shall we contact if I have any queries regarding
+                      refinehealth?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq2-content-3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist2"
+                  >
+                    <div class="accordion-body">
+                      You can post your doubt in the contact us section. We'll
+                      look after your queries and respond you ASAP.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End F.A.Q Section -->
+
+      <!-- ======= Recent Articles Section ======= -->
+      <section id="recent-blog-posts" class="recent-blog-posts">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>Articles</h2>
+            <p>Recent articles</p>
+          </header>
+
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="post-box">
+                <div class="post-img">
+                  <img src="/static/img/covid.jpg" class="img-fluid" alt="" />
+                </div>
+                <a href="/covid"><h3 class="post-title">COVID</h3></a>
+                <a href="/covid" class="readmore stretched-link mt-auto"
+                  ><span>Read More</span><i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="post-box">
+                <div class="post-img">
+                  <img
+                    src="/static/img/nutrition.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <h3 class="post-title">Nutrition and Health</h3>
+                <a href="#" class="readmore stretched-link mt-auto"
+                  ><span>Read More</span><i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="post-box">
+                <div class="post-img">
+                  <img src="/static/img/disease.jpg" class="img-fluid" alt="" />
+                </div>
+                <h3 class="post-title">Diseases</h3>
+                <a href="#" class="readmore stretched-link mt-auto"
+                  ><span>Read More</span><i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Recent Blog Posts Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <header class="section-header">
+            <h2>Why refinehealth</h2>
+            <p>Why you should work with us?</p>
+          </header>
+
+          <div class="row gy-4">
+            <div class="col-lg-6">
+              <img
+                src="/static/img/join-refinehealth.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-6">
+              <div class="why-refine_content">
+                <p class="why-refine_description">
+                  We are not like any other ecommerce web application, we are
+                  here to help our users as well as our service providers.
+                </p>
+              </div>
+
+              <div class="why-refine_points">
+                <div class="why-refine-points_inner">
+                  <div class="points-img">
+                    <img src="/static/img/points-img-1.png" alt="" />
+                  </div>
+                  <div class="points-content">
+                    <h4 class="points-heading">Why should you join us?</h4>
+                    <p class="points-description">
+                      Together we can serve more, grow more, with the help of
+                      our team, you can make your own presence in the online
+                      world.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="why-refine-points_inner">
+                  <div class="points-img">
+                    <img src="/static/img/points-img-2.png" alt="" />
+                  </div>
+                  <div class="points-content">
+                    <h4 class="points-heading">What's there for us?</h4>
+                    <p class="points-description">
+                      We ensure you to grow, along with us, and serve more
+                      people.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="why-refine-points_inner">
+                  <div class="points-img">
+                    <img src="/static/img/points-img-3.png" alt="" />
+                  </div>
+                  <div class="points-content">
+                    <h4 class="points-heading">All the Lorem Ipsum</h4>
+                    <p class="points-description">
+                      All the Lorem Ipsum generon the Internet to repeat tend as
+                      necessary
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-5 col-md-12 footer-info">
+              <a href="" class="logo d-flex align-items-center">
+                <span>refine<span class="health">health</span></span>
+              </a>
+              <p>
+                We will help you feel better and enjoy every single day of your
+                life
+              </p>
+              <div class="social-links mt-3">
+                <a
+                  href="https://www.facebook.com/refinehealth.in/"
+                  class="facebook"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+
+                <a
+                  href="https://www.instagram.com/refinehealth.in/"
+                  class="instagram"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a
+                  href="https://twitter.com/refinehealth_in?s=09"
+                  class="twitter"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/company/refinehealth"
+                  class="linkedin"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#">Home</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#">About us</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#">Services</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Terms of service</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-2 col-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#">Medicines</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Appointment</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#">Ambulance</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="#">Lab Tests</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright
+          <strong
+            ><span>refine<span class="health">health</span></span></strong
+          >. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="static/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="static/vendor/aos/aos.js"></script>
+    <script src="static/vendor/php-email-form/validate.js"></script>
+    <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="static/vendor/purecounter/purecounter.js"></script>
+    <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
